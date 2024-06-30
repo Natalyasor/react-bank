@@ -1,0 +1,35 @@
+div{
+    color: #fff;
+}
+
+
+
+
+.form {
+    padding: 15px ;
+  display: grid;
+    
+    width: 100%;
+    height: 100%;
+   gap: 20px;
+}
+.form_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+.name1:valid{
+    font-size: 14px;
+    color: black;
+}
+input {
+    border: 1px solid #b5b4b8;
+    border-radius: 6px;
+    padding: 10px;
+    }
+  

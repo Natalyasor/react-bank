@@ -14,5 +14,8 @@ router.get('/', (req, res) => {
   res.status(200).json('Hello World')
 })
 
+const auth = require('./auth')
+
+router.use('/', auth)
 // Експортуємо глобальний роутер
 module.exports = router
